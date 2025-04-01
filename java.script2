@@ -1,0 +1,11 @@
+let nombre = prompt("Introduce tu nombre:");
+switch (nombre) {
+    case "Cecilia":
+        alert("Hola, Ceci!");
+        break;
+    case "Guillermo":
+        alert("Hola, Guille!");
+        break;
+    default:
+        alert("Hola, " + nombre + "!");
+}
